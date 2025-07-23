@@ -23,4 +23,4 @@ def predict(image_path):
     return 'Leukemia' if predicted.item() == 1 else 'Normal'
 
 if __name__ == "__main__":
-    print(predict("data/raw/test/Leukemia/image1.jpg"))
+    print(predict("data\raw\testing_data\C-NMC_test_final_phase_data/1.bmp"))
